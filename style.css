@@ -1,0 +1,40 @@
+:root{
+    --cor-primaria: #fffffe;
+    --cor-sec: #611408;
+    --cor-ter: #2c2827;
+    --cor-destaque: #e4dedc;
+    --cor-preta: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 48px;
+    margin: 40px 0 80px;
+
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-inline: 8px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+
+}
+
